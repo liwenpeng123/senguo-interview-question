@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//         function A(a){
+//     var arr=["aa","bb","cc"];
+//     var result=[];
+//     for (var i = 0; i < arr.length; i++) {
+//         if(arr[i]!="bb"){
+//             if(arr[i]!="dd"){
+//                 if(arr[i]==a){
+//                     result.push(arr[i])
+//                 }
+//             }
+//         }
+        
+//     }
+//     return result;
+// }
+// function B(b){
+//     var arr=["aa","bb","cc"];
+//     var result=[];
+//     for (var i = 0; i < arr.length; i++) {
+//         if(arr[i]!="bb"){
+//             if(arr[i]!="dd"){
+//                 if(arr[i]==b){
+//                     result.push(arr[i])
+//                     console.log(result)
+//                 }
+//             }
+//         }
+        
+//     }
+//     return result;
+// }
+// function go(type){
+//     if(type=="a"){
+//         A(type);
+//     }else{
+//         B(type)
+//     }
+// }
+function C(c){
+    var arr=["aa","bb","cc"];
+    var result=[];
+    for (var i = 0; i < arr.length; i++) {
+                if(arr[i]!="bb"&&arr[i]!="dd"&&arr[i]==c){
+                    result.push(arr[i])
+                    console.log(result)
+                }
+        
+    }
+    return result;
+}
+function go(type){
+    C(type)
+}
+</script>
+</body>
+</html>
